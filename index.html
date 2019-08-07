@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>The Ministry of Cannabis Official</title>
         <link rel="stylesheet" type="text/css" href="./styles/indexstyles.css">
         <script type="text/javascript" src="./scripts/indexscripts.js"></script>
     </head>
-    <body>
-        <h1 class="test">Welcome to the test page</h1>
-        <button onclick="testClick()">press me</button>
-        <h2> hello world </h2>
+    <body onload="onPageLoad(1)">
+        <div title="admin menu" class="controller" onclick="admMenu()">
+            <div id="icon">
+                <div class="hamburger-top"></div>
+                <div class="hamburger-mid"></div>
+                <div class="hamburger-bot"></div>
+            </div>
+            <div class="menu-content">
+                <strong><p style="position: absolute;top: -40px; color: black;font-size: 1.4em;">Admin Menu</p></strong>
+                <p>title align:</p>
+                <p>nav align:</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="titlebar">
+                <img class="logo" src="./imgs/MMJPR-Logo.png" alt="oops! somethign went wrong">
+                <h1 class="title">The Ministry of Cannabis</h1>
+                <div class="navbar">
+                    <a class="nav-link" href="">About Us</a>
+                    <a class="nav-link" href="">Browse Information</a>
+                </div>
+            </div>
+        </div>
     </body>
     <footer>
 
